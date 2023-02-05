@@ -1,0 +1,52 @@
+// TextDraw developed using Zamaroht's Textdraw Editor 1.0
+
+// The fuction `PlayerTextDraw´ add by adri1
+// On top of script:
+new PlayerText:Textdraw0;
+new PlayerText:Textdraw1;
+new PlayerText:Textdraw2;
+new PlayerText:Textdraw3;
+
+// In OnPlayerConnect prefferably, we procced to create our textdraws:
+Textdraw0 = CreatePlayerTextDraw(playerid,89.000000, 291.000000, "- PLAYER INFO -");
+PlayerTextDrawAlignment(playerid,Textdraw0, 2);
+PlayerTextDrawBackgroundColor(playerid,Textdraw0, 255);
+PlayerTextDrawFont(playerid,Textdraw0, 2);
+PlayerTextDrawLetterSize(playerid,Textdraw0, 0.280000, 1.100000);
+PlayerTextDrawColor(playerid,Textdraw0, 493483519);
+PlayerTextDrawSetOutline(playerid,Textdraw0, 1);
+PlayerTextDrawSetProportional(playerid,Textdraw0, 1);
+PlayerTextDrawSetSelectable(playerid,Textdraw0, 0);
+
+Textdraw1 = CreatePlayerTextDraw(playerid,89.000000, 302.000000, "GLAD - ~W~0%");
+PlayerTextDrawAlignment(playerid,Textdraw1, 2);
+PlayerTextDrawBackgroundColor(playerid,Textdraw1, 80);
+PlayerTextDrawFont(playerid,Textdraw1, 2);
+PlayerTextDrawLetterSize(playerid,Textdraw1, 0.280000, 1.100000);
+PlayerTextDrawColor(playerid,Textdraw1, -922483457);
+PlayerTextDrawSetOutline(playerid,Textdraw1, 1);
+PlayerTextDrawSetProportional(playerid,Textdraw1, 1);
+PlayerTextDrawSetSelectable(playerid,Textdraw1, 0);
+
+Textdraw2 = CreatePlayerTextDraw(playerid,90.000000, 312.000000, "ZEDJ - ~W~0%");
+PlayerTextDrawAlignment(playerid,Textdraw2, 2);
+PlayerTextDrawBackgroundColor(playerid,Textdraw2, 80);
+PlayerTextDrawFont(playerid,Textdraw2, 2);
+PlayerTextDrawLetterSize(playerid,Textdraw2, 0.280000, 1.100000);
+PlayerTextDrawColor(playerid,Textdraw2, -922483457);
+PlayerTextDrawSetOutline(playerid,Textdraw2, 1);
+PlayerTextDrawSetProportional(playerid,Textdraw2, 1);
+PlayerTextDrawSetSelectable(playerid,Textdraw2, 0);
+
+Textdraw3 = CreatePlayerTextDraw(playerid,89.000000, 322.000000, "INTELIGENCE - ~w~1 s.");
+PlayerTextDrawAlignment(playerid,Textdraw3, 2);
+PlayerTextDrawBackgroundColor(playerid,Textdraw3, 80);
+PlayerTextDrawFont(playerid,Textdraw3, 2);
+PlayerTextDrawLetterSize(playerid,Textdraw3, 0.280000, 1.100000);
+PlayerTextDrawColor(playerid,Textdraw3, -922483457);
+PlayerTextDrawSetOutline(playerid,Textdraw3, 1);
+PlayerTextDrawSetProportional(playerid,Textdraw3, 1);
+PlayerTextDrawSetSelectable(playerid,Textdraw3, 0);
+
+// You can now use PlayerTextDrawShow, PlayerTextDrawHide and
+// PlayerTextDrawDestroy functions to show, hide, and destroy the textdraw.
