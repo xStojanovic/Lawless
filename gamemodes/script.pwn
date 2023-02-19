@@ -7770,7 +7770,7 @@ lawless_loading_LAPI()
 {
     /*                        	ALL - LABELS                                  */
 
-	lawless_C3D("{5D9DB3}Lawless\n{5D9DB3}Since 2016\n{5D9DB3}www.lawless-hq.com\n{FFFFFF}(c) all rights reserved\n\n{5D9DB3}By - #Dzoni™",-1,1890.9182,-1681.2683,17.8636,10);
+	lawless_C3D("{5D9DB3}Lawless\n{5D9DB3}Since 2016\n{5D9DB3}www.lawless-hq.com\n{FFFFFF}(c) all rights reserved\n\n{5D9DB3}By - #DzoniÂ™",-1,1890.9182,-1681.2683,17.8636,10);
 
 	/*                        	ALL - LABELS - END                            */
 	return true;
@@ -14187,7 +14187,7 @@ lawless_antiSTEAL()
 /*==============================================================================
 
 						Lawless - Online Gaming Community
-							  Dzoni Script | v0.1
+							  Script | v0.1
 
 ==============================================================================*/
 
